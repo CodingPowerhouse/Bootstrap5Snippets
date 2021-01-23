@@ -1,0 +1,30 @@
+{
+    "name": "bootstrap5snippets",
+    "displayName": "Bootstrap5Snippets",
+    "description": "Boostrap 5 Snippets",
+    "publisher" : "Programming Simplified",
+    "icon" : "icon.png",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
